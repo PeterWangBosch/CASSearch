@@ -55,17 +55,18 @@
       text-align: left;
 
       .logo-img{
-          width: 40px;
+          width: 30px;
           display: inline-block;
-          height: 40px;
+          height: 30px;
           margin-left: 0px;
           margin-right: 10px;
           background: white;
-          border-radius: 40px;
+          border-radius: 31px;
           text-align: center;
 
         img{
-            max-width: 21px;
+            margin-top: -11px;
+            max-width: 30px;
         }
       }
     }
