@@ -1,7 +1,17 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">{{routeName}}</a>
+      <div class="logo-title">
+        <img src="@/assets/img/favicon.png" alt="" />
+        <span></span>
+      </div>
+      <!--a class="navbar-brand" href="#">{{routeName}}</a-->
+        <div style="margin-bottom: 0px;" class="input-group col-6">
+            <input class="form-control border-right-0 border" type="search" value="团队 技术 项目">
+            <span class="input-group-append">
+                <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+            </span>
+        </div>
       <button class="navbar-toggler navbar-burger"
               type="button"
               @click="toggleSidebar"
@@ -16,10 +26,10 @@
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="ti-panel"></i>
-              <p>Stats</p>
+              <p>关于</p>
             </a>
           </li>
-          <drop-down class="nav-item"
+          <!--drop-down class="nav-item"
                      title="5 Notifications"
                      title-classes="nav-link"
                      icon="ti-bell">
@@ -28,12 +38,12 @@
             <a class="dropdown-item" href="#">Notification 3</a>
             <a class="dropdown-item" href="#">Notification 4</a>
             <a class="dropdown-item" href="#">Another notification</a>
-          </drop-down>
+          </drop-down-->
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="ti-settings"></i>
               <p>
-                Settings
+                登录
               </p>
             </a>
           </li>
@@ -73,5 +83,20 @@ export default {
   }
 };
 </script>
-<style>
+<style lang="scss" scoped>
+.logo-title {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  img {
+    width: 34px;
+    height: 34px;
+  }
+
+  span {
+    font-size: 18px;
+    font-family: "BoschSans-Bold";
+    padding-left: 10px;
+  }
+}
 </style>
