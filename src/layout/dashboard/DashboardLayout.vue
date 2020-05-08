@@ -2,35 +2,26 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
-        <sidebar-link to="/stats" name="User Profile" icon="ti-user"/>
-        <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/>
-        <sidebar-link to="/typography" name="Typography" icon="ti-text"/>
-        <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>
-        <sidebar-link to="/maps" name="Map" icon="ti-map"/>
-        <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/>
+        <sidebar-link to="/dashboard" name="深度" icon="ti-panel"/>
+        <sidebar-link to="/stats" name="院士" icon="ti-crown"/>
+        <sidebar-link to="/stats" name="人才" icon="ti-user"/>
+        <sidebar-link to="/table-list" name="专利" icon="ti-view-list-alt"/>
+        <sidebar-link to="/typography" name="成果" icon="ti-text"/>
+        <sidebar-link to="/icons" name="论文" icon="ti-pencil-alt2"/>
+        <sidebar-link to="/maps" name="资源" icon="ti-map"/>
+        <sidebar-link to="/notifications" name="项目" icon="ti-bell"/>
       </template>
       <mobile-menu>
         <li class="nav-item">
           <a class="nav-link">
             <i class="ti-panel"></i>
-            <p>Stats</p>
+            <p>关于</p>
           </a>
         </li>
-        <drop-down class="nav-item"
-                   title="5 Notifications"
-                   title-classes="nav-link"
-                   icon="ti-bell">
-          <a class="dropdown-item">Notification 1</a>
-          <a class="dropdown-item">Notification 2</a>
-          <a class="dropdown-item">Notification 3</a>
-          <a class="dropdown-item">Notification 4</a>
-          <a class="dropdown-item">Another notification</a>
-        </drop-down>
         <li class="nav-item">
           <a class="nav-link">
             <i class="ti-settings"></i>
-            <p>Settings</p>
+            <p>登录</p>
           </a>
         </li>
         <li class="divider"></li>
