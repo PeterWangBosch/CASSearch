@@ -4,7 +4,7 @@
       <template slot="links">
         <sidebar-link to="/dashboard" name="深度" icon="ti-panel"/>
         <sidebar-link to="/stats" name="院士" icon="ti-crown"/>
-        <sidebar-link to="/stats" name="人才" icon="ti-user"/>
+        <sidebar-link to="/teams" name="人才" icon="ti-user"/>
         <sidebar-link to="/table-list" name="专利" icon="ti-view-list-alt"/>
         <sidebar-link to="/typography" name="成果" icon="ti-text"/>
         <sidebar-link to="/icons" name="论文" icon="ti-pencil-alt2"/>

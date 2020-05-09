@@ -5,31 +5,30 @@
     </div>
     <div>
       <div class="author">
-        <img class="avatar border-white" src="@/assets/img/faces/face-2.jpg" alt="...">
-        <h4 class="title">Chet Faker
+        <img class="avatar border-white" src="@/assets/img/faces/lixiaowen.jpg" alt="...">
+        <h4 class="title">李小文
           <br>
-          <a href="#">
+          <!--a href="#">
             <small>@chetfaker</small>
-          </a>
+          </a-->
         </h4>
       </div>
       <p class="description text-center">
-        "I like the way you work it
-        <br> No diggity
-        <br> I wanna bag it up"
+        中国遥感领域泰斗级专家
+        <br> 中国科学院院士
       </p>
     </div>
     <hr>
-    <div class="text-center">
+    <!--div class="text-center">
       <div class="row">
         <div v-for="(info, index) in details" :key="index" :class="getClasses(index)">
           <h5>{{info.title}}
             <br>
-            <small>{{info.subTitle}}</small>
+            <span style="font-size:8px">{{info.subTitle}}</span>
           </h5>
         </div>
       </div>
-    </div>
+    </div-->
   </card>
 </template>
 <script>
@@ -38,16 +37,16 @@ export default {
     return {
       details: [
         {
-          title: "12",
-          subTitle: "Files"
+          title: "",
+          subTitle: "光学遥感"
         },
         {
-          title: "2GB",
-          subTitle: "Used"
+          title: "",
+          subTitle: "热红外遥感"
         },
         {
-          title: "24,6$",
-          subTitle: "Spent"
+          title: "",
+          subTitle: "非同温黑体平面"
         }
       ]
     };

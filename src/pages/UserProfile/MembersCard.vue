@@ -19,7 +19,7 @@
 
             <div class="col-3">
               <p-button type="success" outline icon>
-                <i class="fa fa-envelope"></i>
+                <i class="fa ti-mobile"></i>
               </p-button>
             </div>
           </div>
@@ -32,22 +32,22 @@
 export default {
   data() {
     return {
-      title: "Team members",
+      title: "有关团队",
       members: [
         {
-          image: require("@/assets/img/faces/face-0.jpg"),
-          name: "Dj Khaled",
+          image: require("@/assets/img/faces/face-1.jpg"),
+          name: "xxxx",
           status: "Offline"
         },
         {
           image: require("@/assets/img/faces/face-1.jpg"),
-          name: "Creative Tim",
-          status: "Available"
+          name: "xxxx",
+          status: "Offline"
         },
         {
           image: require("@/assets/img/faces/face-1.jpg"),
-          name: "Flume",
-          status: "Busy"
+          name: "xxxx",
+          status: "Offline"
         }
       ]
     };
