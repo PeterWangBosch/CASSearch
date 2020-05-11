@@ -5,37 +5,37 @@
     <card >
       <div class="row py-2">
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goDash">深度</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-panel" @click="goDash">&nbsp;深度</button>
           </button>
         </div>
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goStats">院士</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-crown" @click="goStats">&nbsp;院士</button>
           </button>
         </div>
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goTeams">人才</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-user" @click="goTeams">&nbsp;人才</button>
           </button>
         </div>
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goTables">专利</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-view-list-alt" @click="goTables">&nbsp;专利</button>
           </button>
         </div>
       </div>
       <div class="row py-2">
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goGraphs">成果</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-text" @click="goGraphs">&nbsp;成果</button>
           </button>
         </div>
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goIcons">论文</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-pencil-alt2" @click="goIcons">&nbsp;论文</button>
           </button>
         </div>
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goMaps">资源</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-map" @click="goMaps">&nbsp;资源</button>
           </button>
         </div>
         <div class="col-3 text-center">
-          <button type="button" style="padding: 6px 12px" class="btn btn-round btn-outline-primary" @click="goNotis">项目</button>
+          <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-bell" @click="goNotis">&nbsp;项目</button>
           </button>
         </div>
       </div>
