@@ -1,16 +1,14 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <div class="logo-title">
+      <!--div class="logo-title">
         <img src="@/assets/img/favicon.png" alt="" />
         <span></span>
-      </div>
+      </div-->
       <!--a class="navbar-brand" href="#">{{routeName}}</a-->
-        <div style="margin-bottom: 0px;" class="input-group col-6">
-            <input class="form-control border-right-0 border" type="search" value="团队 技术 项目">
-            <span class="input-group-append">
-                <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
-            </span>
+        <div style="margin-bottom: 0px;" class="input-group col-10">
+            <span class="ti-search form-control-icon"></span>
+            <input type="text" class="form-control" placeholder="Search">
         </div>
       <button class="navbar-toggler navbar-burger"
               type="button"
@@ -99,4 +97,20 @@ export default {
     padding-left: 10px;
   }
 }
+
+  .form-control {
+    padding-left: 2.375rem;
+  }
+
+  .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
 </style>
