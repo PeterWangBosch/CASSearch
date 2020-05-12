@@ -2,7 +2,7 @@
   <div>
 
     <!--Charts-->
-    <card >
+    <card class="d-none d-md-block">
       <div class="row py-2">
         <div class="col-3 text-center">
           <button type="button" style="padding: 12px 10px" class="btn btn-round btn-outline-primary ti-panel" @click="goDash">&nbsp;深度</button>
@@ -41,6 +41,38 @@
       </div>
     </card>
 
+    <!--Charts mobile-->
+    <card class="d-md-none">
+      <div class="row py-2">
+        <div class="col-3 text-center">
+          <i class="ti-panel icon-big btn-outline-primary" @click="goDash"></i><br><span>深度</span>
+        </div>
+        <div class="col-3 text-center">
+          <i class="ti-crown icon-big btn-outline-primary" @click="goStats"></i><br><span>院士</span>
+        </div>
+        <div class="col-3 text-center">
+          <i class="ti-user icon-big btn-outline-primary" @click="goTeams"></i><br><span>人才</span>
+        </div>
+        <div class="col-3 text-center">
+          <i class="ti-view-list-alt icon-big btn-outline-primary" @click="goTables"></i><br><span>专利</span>
+        </div>
+      </div>
+      <div class="row py-2">
+        <div class="col-3 text-center">
+          <i class="ti-text icon-big btn-outline-primary" @click="goGraphs"></i><br><span>成果</span>
+        </div>
+        <div class="col-3 text-center">
+          <i class="ti-pencil-alt2 icon-big btn-outline-primary" @click="goIcons"></i><br><span>论文</span>
+          </button>
+        </div>
+        <div class="col-3 text-center">
+          <i class="ti-map icon-big btn-outline-primary" @click="goMaps"></i><br><span>资源</span>
+        </div>
+        <div class="col-3 text-center">
+          <i class="ti-bell icon-big btn-outline-primary" @click="goNotis"></i><br><span>项目</span>
+        </div>
+      </div>
+    </card>
     <!--Stats cards-->
     <div class="row">
       <div class="col-md-6 col-xl-3" v-for="stats in statsCards" :key="stats.title">
@@ -72,35 +104,27 @@ export default {
   },
   methods: {
     goDash: function () {
-      console.log("aaa");
       this.$router.push({ path: "/dashboard" });
     },
     goStats: function () {
-      console.log("aaa");
       this.$router.push({ path: "/stats" });
     },
     goTeams: function () {
-      console.log("aaa");
       this.$router.push({ path: "/teams" });
     },
     goTables: function () {
-      console.log("aaa");
       this.$router.push({ path: "/table-list" });
     },
     goGraphs: function () {
-      console.log("aaa");
       this.$router.push({ path: "/typography" });
     },
     goIcons: function () {
-      console.log("aaa");
       this.$router.push({ path: "/icons" });
     },
     goMaps: function () {
-      console.log("aaa");
       this.$router.push({ path: "/maps" });
     },
     goNotis: function () {
-      console.log("aaa");
       this.$router.push({ path: "/notifications" });
     },
   },
